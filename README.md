@@ -32,4 +32,4 @@ A lightweight, production-ready collection of accessible UI components built wit
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/a11y-ui-components.git](https://github.com/YOUR_USERNAME/a11y-ui-components.git)
+   git clone (https://aura-sites.github.io/accessible-css-library/)
