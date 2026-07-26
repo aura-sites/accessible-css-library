@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible UI Component Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>Accessible UI Component Library</h1>
+    <p>A lightweight, WCAG 2.1 compliant UI library built with vanilla JS and BEM CSS.</p>
+
+    <!-- Trigger Button -->
+    <button id="open-modal-btn" class="btn btn--primary" aria-haspopup="dialog">
+      Open Accessible Modal
+    </button>
+  </main>
+
+  <!-- Modal Component -->
+  <div class="modal" id="demo-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title" aria-describedby="modal-desc">
+    <div class="modal__overlay" tabindex="-1" data-close></div>
+    
+    <div class="modal__content" role="document">
+      <header class="modal__header">
+        <h2 id="modal-title" class="modal__title">Accessible Modal Title</h2>
+        <button class="modal__close-btn" aria-label="Close dialog" data-close>&times;</button>
+      </header>
+
+      <div class="modal__body">
+        <p id="modal-desc">
+          This modal is fully accessible. Try pressing <kbd>Esc</kbd> to close it, or use <kbd>Tab</kbd> to navigate through the interactive controls without focus escaping into the background.
+        </p>
+        <button class="btn btn--secondary">Sample Interactive Button</button>
+      </div>
+
+      <footer class="modal__footer">
+        <button class="btn btn--primary" data-close>Confirm</button>
+        <button class="btn btn--outline" data-close>Cancel</button>
+      </footer>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
