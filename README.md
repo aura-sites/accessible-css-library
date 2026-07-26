@@ -4,7 +4,7 @@
 A lightweight, production-ready collection of accessible UI components built with **vanilla JavaScript**, **semantic HTML5**, and **CSS/SASS (BEM methodology)**. Designed strictly in adherence with **WCAG 2.1 AA Standards**.
 
 ## 🚀 Live Demo
-[Link to your hosted GitHub Pages / Vercel link here]
+(https://aura-sites.github.io/accessible-css-library/)
 
 ## ✨ Features & Accessibility Guarantees
 
